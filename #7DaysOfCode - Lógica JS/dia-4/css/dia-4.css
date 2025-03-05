@@ -1,0 +1,41 @@
+
+:root{
+    --color-primario: #66D2CE;
+    --color-secundario: #2DAA9E;
+    --color-terciario: #fff;
+    --color-cuaternario: #B3D8A8;
+    --color-quintenario: #ddd;
+    --color-hover: #E3D2C3;
+}
+
+body {
+    text-align: center;
+	font-family: Arial, sans-serif;
+	color: var(--color-terciario);
+	background-color: var(--color-primario);
+	background-image: url("../image/numero.jpg");
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+button {
+	width: 100px;
+	height: 30px;
+	background-color: var(--color-secundario);
+	color: var(--color-terciario);
+	padding: 10px;
+	font-size: 18px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: var(--color-hover);
+}
+
+
+

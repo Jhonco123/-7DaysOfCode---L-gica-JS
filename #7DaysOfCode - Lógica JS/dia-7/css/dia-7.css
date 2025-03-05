@@ -1,0 +1,40 @@
+
+:root{
+
+    --color-primario: #FFFFFF;
+    --color-secundario: #5C7285;
+    --color-terciario: #1D1616;
+    --color-hover: #818C78;
+}
+
+body {
+    text-align: justify;
+	font-family: Arial, sans-serif;
+	background-color:var(--color-primario);
+    background-image: url("../image/calculadora.jpg");
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+button {
+    
+	width: 100px;
+	height: 40px;
+	background-color: var(--color-secundario);
+	color:var(--color-terciario);
+	padding: 10px;
+	font-size: 18px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: var(--color-hover);
+}
+
+
+

@@ -1,0 +1,19 @@
+
+:root{
+
+    --color-primario: #FFFFFF;
+    --color-secundario: #202123;
+    
+}
+
+body{
+    font-family: Arial, sans-serif;
+    color: var(--color-primario);
+    text-align: center;
+    background-color: var(--color-secundario);
+    background-image: url(../image/console-log.jpg);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

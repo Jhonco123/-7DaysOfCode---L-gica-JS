@@ -1,0 +1,44 @@
+
+:root{
+    --color-primario: #66D2CE;
+    --color-secundario: #1B4D3E;
+    --color-terciario: #fff;
+    --color-cuaternario: #B3D8A8;
+    --color-quintenario: #ddd;
+    --color-hover: #626F47;
+}
+
+body {
+
+    background-color: var(--color-primario);
+    text-align: center;
+	font-family: Arial, sans-serif;
+	
+}
+
+button {
+	width: 200px;
+	height: 50px;
+	background-color:var(--color-secundario) ;
+	color: var(--color-terciario);
+	padding: 10px;
+	font-size: 18px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+	background-color: var(--color-hover);
+}
+
+#contenido {
+	width: 500px;
+	margin: 40px auto;
+	padding: 20px;
+	background-color: var(--color-cuaternario);
+	border: 1px solid var(--color-quintenario);
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,36 @@
+
+:root{
+
+    --color-primario: #6DBEBF;
+    --color-secundario: #D3E671;
+    --color-terciario: #1D1616;
+    --color-hover: #F8ED8C;
+
+
+}
+body {
+    text-align: center;
+	font-family: Arial, sans-serif;
+	background-color: var(--color-primario);
+    background-image: url("../image/tienda.jpg");
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+button {
+	width: 120px;
+	height: 70px;
+	background-color: var(--color-secundario);
+	color: var(--color-terciario);
+	padding: 10px;
+	font-size: 18px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: var(--color-hover);
+}
